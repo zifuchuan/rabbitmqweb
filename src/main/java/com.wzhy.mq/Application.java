@@ -1,13 +1,13 @@
 package com.wzhy.mq;
 
-
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableAsync;
 
-@org.springframework.boot.autoconfigure.SpringBootApplication
+@SpringBootApplication
 @EnableAsync
-public class SpringBootApplication {
+public class Application {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootApplication.class,args);
+        SpringApplication.run(Application.class,args);
     }
 }
